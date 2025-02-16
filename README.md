@@ -9,7 +9,10 @@ Corso di Alta Formazione Professionale Web Designer 2025
 
 ### Modulo HTML + CSS (Base)
 
-***Published to <a>cn-wd-2025a.surge.sh</a>***
+Published to <a>[https://cn-wd-2025a.surge.sh/](https://cn-wd-2025a.surge.sh/)</a>
+
+
+
 
 <!-- 
 # data In aggiornamento...
