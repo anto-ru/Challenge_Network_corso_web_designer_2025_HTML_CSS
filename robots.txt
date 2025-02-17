@@ -1,0 +1,27 @@
+# Questo è un commento
+# ESEMPIO di File robots.txt a scopo didattico.
+
+# File di direttive per i crawler (software dei m.d.ricerca , prog. per scansionare ed indicizzare i contenuti...)
+
+# Sintassi per comunicare con i crawler :
+# Regola: parametro o valore
+
+# si applica a tutti i motori di ricerca e i bot
+User-agent: *
+# disabilita scan. ed indicizzaz. per la cartella admin
+Disallow: /admin/
+
+# sitemap per utenti
+Sitemap: https://cn-wd-2025a.surge.sh/sitemap.html
+# sitemap per motori di ricerca
+Sitemap: https://cn-wd-2025a.surge.sh/sitemap-index.xml
+
+# imposta un ritardo "di 10 sec." di tempo fra le varie richieste di scansione 
+# (non tutti i m.d.ricerca riconoscono questa regola)
+Crawl-delay: 10
+
+# si applica solo a Googlebot
+User-agent: Googlebot
+Disallow: /private/
+
+# ESEMPIO di File robots.txt a scopo didattico.

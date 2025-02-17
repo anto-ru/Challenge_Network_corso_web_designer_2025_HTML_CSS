@@ -1,0 +1,60 @@
+<!-- ESEMPIO di Site MAP.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Questo non deve essere modificato nell'esercitazione pratica -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+<!-- Contenuto modificabile per l'esercitazione pratica -->
+    <url>
+        <loc>https://www.tuosito.it/</loc>
+        <lastmod>2025-02-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://www.tuosito.it/about.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.tuosito.it/services.html</loc>
+        <lastmod>2025-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://www.tuosito.it/portfolio.html</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://www.tuosito.it/blog.html</loc>
+        <lastmod>2025-02-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.tuosito.it/contact.html</loc>
+        <lastmod>2025-02-14</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>
+
+<!-- 
+<changefreq>: Indica con quale frequenza ci si aspetta che la pagina venga aggiornata. 
+Esempi: always, hourly, daily, weekly, monthly, yearly, never.
+
+<priority>: Determina l'importanza di una pagina rispetto ad altre all'interno del sito. 
+Il valore va da 0.0 a 1.0, dove 1.0 indica la pagina più importante (come la homepage) e valori più bassi sono per le pagine meno importanti.
+
+Nota Bene:
+si consiglia l'analisi dei dati nelle Google Search Console per monitorare l'efficacia della sitemap e l'indicizzazione.
+-->

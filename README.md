@@ -1,8 +1,5 @@
-# 16/02/2025 08:56 GMT+0 In aggiornamento...
-
-- La nuova versione sarà disponibile a breve.
-- Controlla la data dell'ultimo **commit** per sapere se sei aggiornato alla versione più recente.
-
+## Pubblicato in <a>[https://cn-wd-2025a.surge.sh/](https://cn-wd-2025a.surge.sh/)</a>
+# Nuova versione disponibile: 17/02/2025 11:40 GMT+0
 
 <br>
 
@@ -14,18 +11,19 @@ Corso di Alta Formazione Professionale Web Designer 2025
 
 ### Modulo HTML + CSS (Base)
 
-Published to <a>[https://cn-wd-2025a.surge.sh/](https://cn-wd-2025a.surge.sh/)</a>
+
 
 
 
 
 <!-- 
-# Nuova versione disponibile: 25_02_16
+# Nuova versione disponibile: 17/02/2025 11:40 GMT+0
 
-# 16/02/2025 08:56 GMT+0 In aggiornamento...
-
+# In aggiornamento...
+> 16/02/2025 08:56 GMT+0
 - La nuova versione sarà disponibile a breve.
-- Controlla la data dell'ultimo **commit** per sapere se sei aggiornato alla versione più recente.
+- Controlla la data dell'ultimo **commit** per sapere se sei GIA' aggiornato alla versione più recente.
+
 -->
 
 <!-- 
