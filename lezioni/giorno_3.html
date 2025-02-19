@@ -4,28 +4,118 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Il CSS</title>
     
-    <!-- Inseriamo un collegamento al file di stile -->
-    <link rel="stylesheet" type="text/css" href="URL del file CSS" />
-
+    <!-- Inseriamo un collegamento al "file di stile" file che si trova nel nostro progetto -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    
     <!-- Inseriamo le regole per lo stile attraverso il TAG <style> nel TAG <head> -->
+    <!--  -->
+
     <style type="text/css">
 
-        .elemento {
-                
-            /* Ricordate il TAG per i commenti in HTML vero !? Bene! in CSS è diverso :P !! */
-            background-color: yellow!important;
-            /* background-color: yellow; */
-            font-family: Georgia;
-            font-weight: bold;
-            font-size:20px
-        }
-    
-    </style>
+    /* Siamo nel C.S.S. */     
+    /* Cascading = GERARCHIA */ 
 
+    /*  per identificare una classe  uso il " . " prima del nome della classe */
+    /* per identificare un elemento devo scrivere il nome del TAG*/ 
+    
+    #corso{
+            
+    }
+
+    .titolo_1 { 
+            /* Ricordate il TAG per i commenti in HTML vero !? Bene! in CSS è diverso :P !! */
+            color: black ;
+            /* background-color: yellow!important ; */
+            background-color: yellow!important ;
+            font-family: Georgia ;
+            font-weight: bold ;
+            font-size: 20px ;
+        }
+    .titolo_2{
+        color: red ;
+        background-color: black!important ;
+        font-size: 25px ;
+    }
+    .titolo_3{
+        color:red ;
+        background-color: #67e0e9;
+        border: 2px solid;
+    }
+    .georgia{
+        color: rgb(249, 0, 0) ;
+        font-size: 28px ;
+        font-family: Ubuntu ;
+    }
+    </style>
 </head>
 <body>
+    <!--  devo usare " ; "   per dividere i vari attributi -->
+
+<h1 style=" background-color:#d367e9 ; 
+            font-size: 15px ;
+            color: rgb(0, 0, 0)
+            "> 
+    Le nostre key words
+</h1>
+
+<h2  
+    style="background-color:#d367e9"
+    class="titolo_1"
+>
+    Questo testo avrà lo sfondo NERO e i caratteri 
+    <span class="georgia"><em>Georgia</em></span>
+     (sempre che non lo elimini la regola !important)
+</h2>
+
+<h2 class="titolo_2" >
+    Questo testo avrà lo sfondo GIALLO e i caratteri Georgia <br> (sempre che non eliminiamo la regola !important)
+</h2>
+
+    <!-- elemento non stilizzato perchè la sua classe di riferimento non esiste -->
+<h3 class="titolo_3">
+    titolo numero 3
+</h3>
+
+    <h2>titolo</h2>
+    <h3>titolo</h3>
+
+    <p class=""> Un paragrafo.</p>
+
+
+
+
+
+<!-- 
+
+<h1 class="elemento">Questo testo avrà lo sfondo giallo e i caratteri Georgia</h1>
+
+<p style="font-family: arial; color: red; font-size:20px; font-style:italic;">Un paragrafo.</p>
+<p style="font-family: ubuntu; color: red; font-size:20px; font-style:italic;">Un paragrafo.</p>
+
+<p class="elemento">Questo testo avrà lo sfondo giallo e i caratteri Georgia</p>
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- <a href="https://www.challengenetwork.it/"> Visita la pagina web di Challenge Network </a>
     <br>
@@ -39,13 +129,13 @@
     </a>
     
     <br> -->
-
+<!-- 
     <a 
         href='/corso/giorno_2.html' 
         title='Pagina 2' 
         target="_blank">
         Vai alla nostra pagina 2
-    </a>
+    </a> -->
 
 <!--
     _blank carica e mostra il link in una nuova finestra o scheda
