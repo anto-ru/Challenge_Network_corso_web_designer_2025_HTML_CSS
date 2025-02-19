@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="it_IT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Esempio metatag per m.d.ricerca -->
     <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" type="text/css" 
+    href="/assets/css/style.css" />
+
     <!-- Favicon -->
-    <link rel="icon" type="image/png" alt="favicon" href="/assets/img/smile.png">
+    <link rel="icon" 
+    type="image/png" 
+    alt="favicon" 
+    href="/assets/img/smile.png">
+
     <title>Modulo HTML+CSS (Base)</title>
 </head>
 
 <body>
-
 <nav>
 
     <!-- Nav-Bar / Barra di navigazione / Link -->
@@ -55,25 +63,12 @@
         Esercitazioni pratiche
     </a>
 
-
-    
-    <!-- Esercitazione pratica -->
-    <!-- SiteMap -->
     <a 
-        href="/"
+        href="/sitemap.html"
         title="Vai alla siteMap " 
         target="_blank">
         SiteMap
     </a>
-
-
-<!-- 
-    <a 
-        href="/lezioni/debug/debug_esercitazione_pratica_2.html"
-        title="Vai alla pagina 'debug_esercitazione_pratica_2.html'" 
-        target="_self">
-        Debug esercitazione pratica 2
-    </a> -->
 
     <!-- 
         <a 
@@ -99,18 +94,21 @@
         
     <hr>
 
+<div class="bordo_rosso">
     <ul>
         <li>Elemento 1</li>
         <li>Elemento 2</li>
         <li>Elemento 3</li>
     </ul>
+</div>
 
+<div class="bordo_nero">
     <ol>
         <li>Elemento 1</li>
-        <li>Elemento 2</li>
+        <li id="solo">Elemento 2</li>
         <li>Elemento 3</li>
     </ol>
-
+</div>
 
 
     <hr>
@@ -136,11 +134,7 @@
 </div>
 
 
-    <!-- QUESTI SONO DEI COMMENTI -->
-    <!-- <br> -->
-    <!-- <br> -->
-    <!-- ma siamo sicuri che il valore "_blank" sia la scelta migliore utile !? -->
+<script src="/assets/js/javascript.js" charset="utf-8"></script>
 
 </body>
-
 </html>

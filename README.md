@@ -1,5 +1,5 @@
 ## Pubblicato in <a>[https://cn-wd-2025a.surge.sh/](https://cn-wd-2025a.surge.sh/)</a>
-# Nuova versione disponibile: 17/02/2025 11:40 GMT+0
+## Nuova versione disponibile: 19/02/2025 10:00 GMT+0
 
 <br>
 
